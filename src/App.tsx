@@ -61,9 +61,9 @@ function App() {
       day: 'numeric'
     });
 
-    const message = `🎯 Countdown to Ramadan 2025 by Dev Mahmoud!\n\n⏰ Time Remaining:\n${timeLeft.days} 
+    const message = `🎯Countdown Ramadan 2025!\n\n⏰ Time Remaining:\n${timeLeft.days} 
     days\n${timeLeft.hours} hours\n${timeLeft.minutes} minutes\n${timeLeft.seconds} 
-    seconds\n\nJoin me in counting down! 🎉 \n\n Visit: https://ramadan-countdown-lyart.vercel.app/`;
+    seconds 🎉\n\n \n\n Visit: https://ramadan-countdown-lyart.vercel.app/`;
     
     const whatsappUrl = `https://wa.me/?text=${encodeURIComponent(message)}`;
     window.open(whatsappUrl, '_blank');
