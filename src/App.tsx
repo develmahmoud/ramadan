@@ -61,9 +61,9 @@ function App() {
       day: 'numeric'
     });
 
-    const message = `🎯Countdown Ramadan 2025!\n\n⏰ Time Remaining:\n${timeLeft.days} 
+    const message = `🎯Countdown Ramadan 2025!\n⏰ Time Remaining:\n${timeLeft.days} 
     days\n${timeLeft.hours} hours\n${timeLeft.minutes} minutes\n${timeLeft.seconds} 
-    seconds 🎉\n\n \n\n Visit: https://ramadan-countdown-lyart.vercel.app/`;
+    seconds 🎉\n Visit: https://ramadan-countdown-lyart.vercel.app/`;
     
     const whatsappUrl = `https://wa.me/?text=${encodeURIComponent(message)}`;
     window.open(whatsappUrl, '_blank');
@@ -75,8 +75,8 @@ function App() {
         {/* Header */}
         <div className="flex flex-col md:flex-row justify-between items-center mb-12">
           <div className="flex items-center space-x-2">
+            <h1 className="text-2xl font-bold text-gray-800 dark:text-white mb-4">SpaceSoftwares Inc </h1>
             <RocketIcon className="w-6 h-6 text-indigo-600 dark:text-indigo-400" />
-            <h1 className="text-2xl font-bold text-gray-800 dark:text-white mb-4">SpaceSoftwares Inc</h1>
           </div>
           <div className="flex items-center space-x-4">
             <button
@@ -125,7 +125,7 @@ function App() {
       </div>
       <footer className='max-w-4xl mx-auto'>
             <div className="text-center mt-8">
-                <div className="text-xl font-semibold text-gray-800 dark:text-white">
+                <div className="text-sm font-semibold text-gray-800 dark:text-white">
                   <div className="">
                       Powered By SpaceSoftwares Inc ({currentYear})
                         
