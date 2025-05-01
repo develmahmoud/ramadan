@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { Moon, Sun, Calendar, Share2, RocketIcon, CodeIcon } from 'lucide-react';
 
 // Set the target date (New Year 2025 in this example)
-const TARGET_DATE = new Date('2025-02-28T00:00:00');
+const TARGET_DATE = new Date('2025-07-28T00:00:00');
 
 interface TimeLeft {
   days: number;
@@ -104,7 +104,7 @@ function App() {
         {/* Countdown Display */}
         <div className="max-w-4xl mx-auto">
           <div className="text-center mb-8">
-            <h2 className="text-3xl text-gray-600 dark:text-gray-300 mb-2">Time Remaining Until Ramadan 2025</h2>
+            <h2 className="text-3xl text-gray-600 dark:text-gray-300 mb-2">Time Remaining Until Batch B2 POP</h2>
             <p className="text-2xl font-semibold text-gray-800 dark:text-white">
               {TARGET_DATE.toLocaleDateString('en-US', {
                 weekday: 'long',
